@@ -1,0 +1,102 @@
+body{
+  font-family: 'Aclonica', sans-serif;
+  display: grid;
+  grid-template-rows: 100px minmax(calc(100vh - 170px), 1fr) 50px;
+  gap: 20px;
+}
+header{
+  display: flex;
+  /* flex-direction: row;
+  justify-content: flex-start;
+  align-items: center; */
+ background-color: rgb(245, 241, 8); 
+}
+header img{
+  width: 200px;
+  height: 100px;
+}
+div h1{
+  font-size: 35px;
+  text-align: center;
+}
+main{
+  background-image: url('../img/background\ \(1\).jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: 350px 600px;
+  gap: 20px;
+  justify-content: center;
+
+
+}
+
+table{width: 90%;}
+table th{
+  height: 50px;
+}
+table, tr, th, td {
+  background-color: rgb(230, 164, 164);
+border: 1px solid rgb(238, 9, 9);
+vertical-align:middle;
+}
+td{
+  text-align: center
+  ;
+  width: 200px;
+}
+table img{
+  width: 100px;
+  height: 100px;
+}
+.content{
+  margin: 20px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.section1{
+  border-radius: 20px;
+  background-color: rgb(247, 243, 10);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  justify-content: center;
+  
+}
+input{
+  width: 250px;
+  height: 20px;
+  border-radius: 10px;
+}
+select{
+  width: 250px;
+  height: 30px;
+  border-radius: 10px;
+}
+.section2{
+  border-radius: 20px;
+  background-color: rgb(247, 243, 10);
+  display: flex;
+  align-items: center;
+    flex-direction: column;
+    height: 300px;
+    justify-content: center;
+}
+form{
+  display: flex;
+  flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    
+}
+button{
+  width: 250px;
+  background-color: rgb(240, 4, 4);
+  color: bisque;
+  border-radius: 10px;
+  height: 30px;
+}
